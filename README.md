@@ -17,6 +17,7 @@ Dataset:[[dataset](https://drive.google.com/file/d/1lV7is1B566UQPYzzY8R2ZmOritTW
 Completed the Data transformation in Power Query and the dataset is then loaded into Microsoft Power BI Desktop for visualization.
 
 ## Dataset Description:
+Sample superstore dataset contains `13 columns and 9995 rows` of observation. Dataset includes columns like:
 
 - Ship Mode: Shipping method used for the order (e.g., Standard Class, Second Class, First Class, Same Day).
 - Segment: Customer segment (e.g., Consumer, Corporate, Home Office).
@@ -37,16 +38,55 @@ Completed the Data transformation in Power Query and the dataset is then loaded 
 - Power BI: As the primary data visualization and exploration tool, Power BI facilitated the creation of interactive dashboards and reports to analyze the data from various angles.
 
 # Exploratory Data Analysis (EDA):
-- Data Cleaning and Preprocessing: Checking for missing values, inconsistencies, and data quality issues.
-- Descriptive Statistics: Summarizing key metrics like sales, profit, discounts, and quantities to gain an initial understanding of the data.
-- Data Visualization: Creating visuals like bar charts, line graphs, scatter plots, and heatmaps to identify patterns, trends, and relationships within the data.
-  
-## Create Profit Margin column:
-profit_margin = (profit/sales)*100
+- Data Cleaning and Preprocessing: There are no missing values, inconsistencies, and data quality issues present in the dataset.
+- Descriptive Statistics: Summarized KPIs like sales, profit, discounts, and quantities to gain an initial understanding of the data.
+- Data Visualization: Created visuals like bar charts to identify patterns, trends, and relationships within the data.
+- New column: profit_margin = (profit/sales)*100. So, now the dataset contains '13 columns and 9995 rows'
 
 ## Data Visualization (Dashboard):
 Dashboards created in Microsoft Power BI Desktop:
+
 Overview:
+![overview dashboard img](https://github.com/sonali-guptaa/customer_retention_analysis/assets/151986702/6b7b279b-25c1-42a4-80eb-07c65332eaee)
+
+Sales Analysis Dashboard:
+![sales analysis dashboard img](https://github.com/sonali-guptaa/customer_retention_analysis/assets/151986702/aaad38d8-0860-45c7-8397-da630c4c5a4f)
+
+Profit Analysis Dashboard:
+![3rd screenshot img](https://github.com/sonali-guptaa/customer_retention_analysis/assets/151986702/df2131c3-62d1-4b60-b23f-6b5122bc554d)
+
+Quantity Analysis Dashboard:
+![4th screenshot img](https://github.com/sonali-guptaa/customer_retention_analysis/assets/151986702/1485b952-af91-4e68-a49c-7baa2df7c9d7)
+
+Discount Analysis Dashboard:
+![5th screenshot img](https://github.com/sonali-guptaa/customer_retention_analysis/assets/151986702/1cce2ffb-0001-4240-902d-e2ce6dbb2508)
+
+Profit Margin Analysis Dashboard:
+![6th screenshot img](https://github.com/sonali-guptaa/customer_retention_analysis/assets/151986702/ed7b4f91-63a7-4a61-af77-9ea3c6f2153d)
+
+## Insights:
+- Shipping mode is the most preferred mode out of all other modes.
+- Consumer segment is the largest contributor to all KPIs, suggesting a strong B2C market.
+- Even though, the technology is the top selling category but the profit margin is high for office supplies category.
+- The West region is leading in sales, profit, quantity and profit margin but the discount is high for central region.
+- The sales, profit, quantity and profit margin are high in California state but the discount is high in Texas state.
+- New York City leads in all KPIs except for high discounts in Philadelphia.
+- Phones is the top selling and high profit sub-category.
+- Discount and quantity is high for binders sub-category.
+
+## Recommendation:
+Some recommendations based on the analysis are:
+- Ensure reliability of Standard Class; create incentives for Second Class, First Class, and Same Day shipping.
+- Increase B2C marketing efforts; implement loyalty programs and personalized marketing.
+- Expand technology offerings; promote the profitability of Office Supplies.
+- Apply successful West region strategies to other regions; develop customized marketing to boost sales.
+- Review and optimize discount policies for profitability.
+- Adjust discount strategies in Texas for better profitability; continue supporting California’s success.
+- Assess and adjust high discounts in Philadelphia; maintain successful strategies in New York City.
+- Reduce discounts slightly for binders to improve margins.
+- Monitor sales data for trends; gather and act on customer feedback to enhance offerings.
+- Ensure discounts drive sales while maintaining healthy profit margins.
+---
 
 
 
